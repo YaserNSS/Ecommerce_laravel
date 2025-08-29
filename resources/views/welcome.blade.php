@@ -62,6 +62,7 @@
                 margin-bottom: 30px;
             }
         </style>
+        @livewireStyles
     </head>
     <body>
         <div class="flex-center position-ref full-height">
@@ -83,6 +84,9 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
+                <div>
+                        <livewire:test-component />
+                </div>
 
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
@@ -95,5 +99,6 @@
                 </div>
             </div>
         </div>
+        @livewireScripts
     </body>
 </html>

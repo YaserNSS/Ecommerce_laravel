@@ -34,6 +34,7 @@
       <div class="main-panel">
         <div class="content-wrapper">
           @yield('content')
+
       </div>
       </div>
 
@@ -65,6 +66,6 @@
 <!-- End custom js for this page-->
 <script src="{{ asset('admin/assets/js/jquery.cookie.js')}}" type="text/javascript"></script>
 
-    @livewireScripts
+@livewireScripts
 </body>
 </html>
